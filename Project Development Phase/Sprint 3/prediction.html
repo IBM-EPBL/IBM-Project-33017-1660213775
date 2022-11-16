@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/prediction.css') }}"
+    />
+    <script
+      src="https://kit.fontawesome.com/0f087117de.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Damage Assessment | Prediction</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="hero">
+      <header>
+        <nav>
+          <h2 class="logo">DAMAGE <span>ASSESSMENT</span></h2>
+
+          <div class="menu">
+            <ul>
+              <li><a href="/index">HOME</a></li>
+              <li><a href="/process">PROCESS</a></li>
+              <li>
+                <a href="/estimation" class="is-active">ESTIMATION</a>
+              </li>
+            </ul>
+          </div>
+          <a href="/logout" class="btn">LOGOUT</a>
+        </nav>
+      </header>
+
+      <!--Estimation section-->
+
+      <section>
+        <form
+          action="result"
+          method="post"
+          enctype="multipart/form-data"
+          class="container"
+        >
+          <input type="file" name="_file" id="_file" />
+          <input type="submit" value="Upload Image" id="submit-btn" />
+        </form>
+        <div
+          class="estimation"
+          style="
+            font-size: 18px;
+            font-family: 'Source Code Pro', monospace;
+            font-weight: 400;
+            letter-spacing: 1px;
+          "
+        >
+          <h3>
+            The Estimat<u
+              style="
+                padding-top: 20px;
+                text-decoration-color: orange;
+                text-underline-offset: 10px;
+                text-decoration-thickness: 2px;
+              "
+              >ed cost for the</u
+            >
+            damage is :
+            <span>{{prediction}}</span>
+          </h3>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
