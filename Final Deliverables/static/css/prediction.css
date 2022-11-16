@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900&display=swap");
+/*font-family: 'Source Code Pro', monospace;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* -- header starts --*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+header {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  color: #fafafa;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: #f9004d;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  color: red; /**/
+  transition: 0.4s;
+}
+
+.btn {
+  background-color: #f9004d;
+  color: #fafafa;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.menu {
+  padding-left: 320px;
+}
+
+.menu a {
+  padding: 8px 16px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 99px;
+}
+
+.menu a.is-active,
+.menu a:hover {
+  background-color: #f9004d;
+  color: #fafafa;
+}
+/* -- header ends --*/
+/* Assessment styles */
+
+section {
+  height: 90%;
+  place-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 10% 0% 2% 33%;
+}
+
+#_file {
+  border: 2px solid #9658fe;
+  border-radius: 50px;
+  padding: 2px;
+}
+
+#_file::-webkit-file-upload-button {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.container #submit-btn {
+  margin: 30px 10px;
+  width: 45%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+}

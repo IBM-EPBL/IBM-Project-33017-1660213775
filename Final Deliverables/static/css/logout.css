@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900&display=swap");
+/*font-family: 'Source Code Pro', monospace;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Lato", sans-serif;
+}
+/* -- header starts --*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+header {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  color: #fafafa;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: #f9004d;
+}
+
+.btn {
+  background-color: #f9004d;
+  color: #fafafa;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+/* -- header ends --*/
+
+/* -- want to change -- */
+
+.content {
+  margin: 20px 250px 250px 35%;
+}
+
+h1 {
+  color: #222;
+  margin: 50px 0px 50px;
+  font-size: 40px;
+}
+
+h3 {
+  color: #222;
+  padding-left: 7%;
+  text-align: justify;
+  text-justify: inter-word;
+  letter-spacing: 2px;
+  line-height: 30px;
+  font-size: 22px;
+}
+
+/* -- change -- */
