@@ -49,6 +49,7 @@
   * Functional Requirements
   * Technology Architecture
 * Project Planning
+  * JIRA Roadmap
   * Milestone & Activity List
   * Sprint Delivery Plan
 
