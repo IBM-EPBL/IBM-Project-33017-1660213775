@@ -1,6 +1,6 @@
 # IBM-Project-33017-1660213775
 ## Intelligent Vehicle Damage Assessment &amp; Cost Estimator for Insurance Companies
-## Video Link: ()
+## Video Link: (https://drive.google.com/drive/folders/1jzXzcMSRsOYmBbP4DQijwuzlqQlsJ_tP?usp=sharing)
 
 # [Assignment](https://github.com/IBM-EPBL/IBM-Project-33017-1660213775/tree/main/Assignment)
 * Gokul
@@ -30,8 +30,10 @@
   * process.html
   * register.html
 * uploads
-* app.py
 * Final Report
+* Project Completion Video
+* app.py
+
 
 # [Project Desing & Planning](https://github.com/IBM-EPBL/IBM-Project-33017-1660213775/tree/main/Project%20Design%20%26%20Planning)
 * Ideation Phase
