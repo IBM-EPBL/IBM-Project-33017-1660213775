@@ -23,12 +23,12 @@
     * process.css
     * register.css
   *templates
-  * index.html
-  * login.html
-  * logout.html
-  * prediction.html
-  * process.html
-  * register.html
+    * index.html
+    * login.html
+    * logout.html
+    * prediction.html
+    * process.html
+    * register.html
 * uploads
 * Final Report
 * Project Completion Video
