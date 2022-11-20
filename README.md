@@ -22,7 +22,7 @@
     * prediction.css
     * process.css
     * register.css
-  *templates
+  * templates
     * index.html
     * login.html
     * logout.html
